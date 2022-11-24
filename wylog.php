@@ -6,6 +6,3 @@
     session_destroy();
     header('Location: index.php');
 ?>
-
-<!-- Test teraz tu -->
-
