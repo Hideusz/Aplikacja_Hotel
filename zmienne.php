@@ -4,5 +4,3 @@
     $password = "";
     $name = "hotel";
 ?>
-
-<!-- Test czy to tak działa -->
