@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+    background: rgb(131,58,180);
+    background: linear-gradient(255deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-bottom: 50px;
+    height: 81px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+.logo{
+    margin-left: 100px;
+    color: white;
+}
+.menu li{ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80%;
+    border-left: 2px solid black;
+}
+.menu li:last-of-type{
+    border-right: 2px solid black;
+}
+.menu li a{
+    font-size: 1.75rem;
+    transition:  0.5s;
+}
+.przycisk1{
+    background-color: rgb(142, 35, 11);
+    padding: 20px 0px 20px 0px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid rgb(142, 35, 11);
+}
+.przycisk1 a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 1.75rem;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:link{
+    color: white;
+}
+.menu a:visited{
+    color: white;
+}
+.menu li a:hover{
+    /* color: rgb(226, 0, 0); */
+    font-size: 1.875rem;
+    
+}
+.footer{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.486);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    
+}
+.main{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 1.5rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+    color: white;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.rezerwacja{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 3rem;
+    margin-right: 117px;
+    margin-left: 100px;
+    text-align: justify;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.rezerwacja a{
+    text-decoration: none;
+}
+.rezerwacja a:link{
+    color: white;
+}
+.rezerwacja a:visited{
+    color: white;
+}
