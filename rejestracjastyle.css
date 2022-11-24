@@ -71,7 +71,6 @@ h1{
 .przyciski
 {
     display: flex;
-    /* justify-content: center; */
     margin-bottom: 30px;
 }
 .przycisk1{

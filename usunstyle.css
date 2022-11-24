@@ -12,10 +12,7 @@ body{
     background-position: center;
 }
 form{
-    /* display: block; */
     padding: 10%;
-    /* width: 100%; */
-    
 }
 .kontener{
     display: flex;
